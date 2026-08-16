@@ -1,0 +1,418 @@
+{
+  "as_of": "2026-08-16",
+  "quality_as_of": "2026-08-12",
+  "schema_version": 1,
+  "attribution": "Quality scores derived from the LMArena leaderboard dataset (lmarena-ai/leaderboard-dataset, CC-BY-4.0) via Hugging Face. Prices from the OpenRouter public models API. See the `sources` field for exact URLs.",
+  "sources": [
+    {
+      "name": "LMArena leaderboard dataset",
+      "url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
+      "license": "CC-BY-4.0",
+      "retrieved": "2026-08-16"
+    },
+    {
+      "name": "OpenRouter models API",
+      "url": "https://openrouter.ai/api/v1/models",
+      "license": "public API, no license statement \u2014 prices as displayed",
+      "retrieved": "2026-08-16"
+    }
+  ],
+  "models": [
+    {
+      "id": "anthropic/claude-opus-5",
+      "name": "Claude Opus 5",
+      "provider": "anthropic",
+      "currency": "USD",
+      "price_in_per_m": 5.0,
+      "price_out_per_m": 25.0,
+      "scores": {
+        "general": 0.7693,
+        "coding": 0.7848,
+        "writing": 0.7776
+      },
+      "elo": {
+        "general": 1507.7846,
+        "coding": 1534.2153,
+        "writing": 1491.6746
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.6",
+      "name": "Anthropic: Claude Opus 4.6",
+      "provider": "anthropic",
+      "currency": "USD",
+      "price_in_per_m": 5.0,
+      "price_out_per_m": 25.0,
+      "scores": {
+        "general": 0.7641,
+        "coding": 0.7859,
+        "writing": 0.7911
+      },
+      "elo": {
+        "general": 1502.7969,
+        "coding": 1535.4336,
+        "writing": 1505.5486
+      }
+    },
+    {
+      "id": "anthropic/claude-fable-5",
+      "name": "Anthropic: Claude Fable 5",
+      "provider": "anthropic",
+      "currency": "USD",
+      "price_in_per_m": 10.0,
+      "price_out_per_m": 50.0,
+      "scores": {
+        "general": 0.7541,
+        "coding": 0.7725,
+        "writing": 0.7834
+      },
+      "elo": {
+        "general": 1493.2972,
+        "coding": 1521.8553,
+        "writing": 1497.5651
+      }
+    },
+    {
+      "id": "qwen/qwen3.8-max",
+      "name": "Qwen: Qwen3.8 Max",
+      "provider": "qwen",
+      "currency": "USD",
+      "price_in_per_m": 2.0,
+      "price_out_per_m": 6.0,
+      "scores": {
+        "general": 0.7524,
+        "coding": 0.7585,
+        "writing": 0.7777
+      },
+      "elo": {
+        "general": 1491.7109,
+        "coding": 1508.3252,
+        "writing": 1491.825
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.7",
+      "name": "Anthropic: Claude Opus 4.7",
+      "provider": "anthropic",
+      "currency": "USD",
+      "price_in_per_m": 5.0,
+      "price_out_per_m": 25.0,
+      "scores": {
+        "general": 0.7509,
+        "coding": 0.7699,
+        "writing": 0.7723
+      },
+      "elo": {
+        "general": 1490.2411,
+        "coding": 1519.324,
+        "writing": 1486.4639
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.2",
+      "name": "Meta: Muse Spark 1.2",
+      "provider": "meta",
+      "currency": "USD",
+      "price_in_per_m": 1.25,
+      "price_out_per_m": 4.25,
+      "scores": {
+        "general": 0.7487,
+        "coding": 0.7457,
+        "writing": 0.7321
+      },
+      "elo": {
+        "general": 1488.2728,
+        "coding": 1496.3696,
+        "writing": 1448.8718
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash",
+      "name": "Google: Gemini 3.5 Flash",
+      "provider": "google",
+      "currency": "USD",
+      "price_in_per_m": 1.5,
+      "price_out_per_m": 9.0,
+      "scores": {
+        "general": 0.7414,
+        "coding": 0.7433,
+        "writing": 0.7549
+      },
+      "elo": {
+        "general": 1481.5938,
+        "coding": 1494.1518,
+        "writing": 1469.6488
+      }
+    },
+    {
+      "id": "google/gemini-3.6-flash",
+      "name": "Google: Gemini 3.6 Flash",
+      "provider": "google",
+      "currency": "USD",
+      "price_in_per_m": 0.75,
+      "price_out_per_m": 3.75,
+      "scores": {
+        "general": 0.7397,
+        "coding": 0.7445,
+        "writing": 0.7505
+      },
+      "elo": {
+        "general": 1479.9925,
+        "coding": 1495.3023,
+        "writing": 1465.574
+      }
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview",
+      "name": "Google: Gemini 3.1 Pro Preview",
+      "provider": "google",
+      "currency": "USD",
+      "price_in_per_m": 2.0,
+      "price_out_per_m": 12.0,
+      "scores": {
+        "general": 0.7392,
+        "coding": 0.7315,
+        "writing": 0.7686
+      },
+      "elo": {
+        "general": 1479.5656,
+        "coding": 1483.6063,
+        "writing": 1482.7955
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.1",
+      "name": "Meta: Muse Spark 1.1",
+      "provider": "meta",
+      "currency": "USD",
+      "price_in_per_m": 1.25,
+      "price_out_per_m": 4.25,
+      "scores": {
+        "general": 0.7363,
+        "coding": 0.7453,
+        "writing": 0.7172
+      },
+      "elo": {
+        "general": 1476.9422,
+        "coding": 1496.0144,
+        "writing": 1435.8997
+      }
+    },
+    {
+      "id": "moonshotai/kimi-k3",
+      "name": "MoonshotAI: Kimi K3",
+      "provider": "moonshotai",
+      "currency": "USD",
+      "price_in_per_m": 3.0,
+      "price_out_per_m": 15.0,
+      "scores": {
+        "general": 0.7355,
+        "coding": 0.7634,
+        "writing": 0.7314
+      },
+      "elo": {
+        "general": 1476.2894,
+        "coding": 1512.9591,
+        "writing": 1448.2564
+      }
+    },
+    {
+      "id": "qwen/qwen3.7-max",
+      "name": "Qwen: Qwen3.7 Max",
+      "provider": "qwen",
+      "currency": "USD",
+      "price_in_per_m": 1.475,
+      "price_out_per_m": 4.425,
+      "scores": {
+        "general": 0.7334,
+        "coding": 0.7474,
+        "writing": 0.7363
+      },
+      "elo": {
+        "general": 1474.423,
+        "coding": 1497.9097,
+        "writing": 1452.6105
+      }
+    },
+    {
+      "id": "openai/gpt-5.5",
+      "name": "OpenAI: GPT-5.5",
+      "provider": "openai",
+      "currency": "USD",
+      "price_in_per_m": 5.0,
+      "price_out_per_m": 30.0,
+      "scores": {
+        "general": 0.7291,
+        "coding": 0.7445,
+        "writing": 0.7366
+      },
+      "elo": {
+        "general": 1470.5965,
+        "coding": 1495.2742,
+        "writing": 1452.9177
+      }
+    },
+    {
+      "id": "openai/gpt-5.4",
+      "name": "OpenAI: GPT-5.4",
+      "provider": "openai",
+      "currency": "USD",
+      "price_in_per_m": 2.5,
+      "price_out_per_m": 15.0,
+      "scores": {
+        "general": 0.7279,
+        "coding": 0.7453,
+        "writing": 0.722
+      },
+      "elo": {
+        "general": 1469.5434,
+        "coding": 1495.9623,
+        "writing": 1440.0839
+      }
+    },
+    {
+      "id": "google/gemini-3-flash-preview",
+      "name": "Google: Gemini 3 Flash Preview",
+      "provider": "google",
+      "currency": "USD",
+      "price_in_per_m": 0.5,
+      "price_out_per_m": 3.0,
+      "scores": {
+        "general": 0.7238,
+        "coding": 0.7067,
+        "writing": 0.7431
+      },
+      "elo": {
+        "general": 1465.969,
+        "coding": 1462.2668,
+        "writing": 1458.8024
+      }
+    },
+    {
+      "id": "z-ai/glm-5.2",
+      "name": "Z.ai: GLM 5.2",
+      "provider": "z-ai",
+      "currency": "USD",
+      "price_in_per_m": 0.308,
+      "price_out_per_m": 0.968,
+      "scores": {
+        "general": 0.7233,
+        "coding": 0.7234,
+        "writing": 0.7454
+      },
+      "elo": {
+        "general": 1465.4955,
+        "coding": 1476.4663,
+        "writing": 1460.8892
+      }
+    },
+    {
+      "id": "xiaomi/mimo-v2.5-pro",
+      "name": "Xiaomi: MiMo-V2.5-Pro",
+      "provider": "xiaomi",
+      "currency": "USD",
+      "price_in_per_m": 0.435,
+      "price_out_per_m": 0.87,
+      "scores": {
+        "general": 0.7228,
+        "coding": 0.7502,
+        "writing": 0.7186
+      },
+      "elo": {
+        "general": 1465.0571,
+        "coding": 1500.4928,
+        "writing": 1437.1218
+      }
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.6",
+      "name": "Anthropic: Claude Sonnet 4.6",
+      "provider": "anthropic",
+      "currency": "USD",
+      "price_in_per_m": 3.0,
+      "price_out_per_m": 15.0,
+      "scores": {
+        "general": 0.714,
+        "coding": 0.7538,
+        "writing": 0.718
+      },
+      "elo": {
+        "general": 1457.5695,
+        "coding": 1503.879,
+        "writing": 1436.5729
+      }
+    },
+    {
+      "id": "google/gemini-2.5-pro",
+      "name": "Google: Gemini 2.5 Pro",
+      "provider": "google",
+      "currency": "USD",
+      "price_in_per_m": 1.25,
+      "price_out_per_m": 10.0,
+      "scores": {
+        "general": 0.7138,
+        "coding": 0.6946,
+        "writing": 0.7379
+      },
+      "elo": {
+        "general": 1457.3408,
+        "coding": 1452.2204,
+        "writing": 1454.0365
+      }
+    },
+    {
+      "id": "openai/gpt-5.6-sol",
+      "name": "OpenAI: GPT-5.6 Sol",
+      "provider": "openai",
+      "currency": "USD",
+      "price_in_per_m": 5.0,
+      "price_out_per_m": 30.0,
+      "scores": {
+        "general": 0.7086,
+        "coding": 0.7378,
+        "writing": 0.7387
+      },
+      "elo": {
+        "general": 1452.9312,
+        "coding": 1489.1779,
+        "writing": 1454.8291
+      }
+    },
+    {
+      "id": "anthropic/claude-opus-4.5",
+      "name": "Anthropic: Claude Opus 4.5",
+      "provider": "anthropic",
+      "currency": "USD",
+      "price_in_per_m": 5.0,
+      "price_out_per_m": 25.0,
+      "scores": {
+        "general": 0.7047,
+        "coding": 0.7519,
+        "writing": 0.7273
+      },
+      "elo": {
+        "general": 1449.7266,
+        "coding": 1502.075,
+        "writing": 1444.6396
+      }
+    },
+    {
+      "id": "x-ai/grok-4.6",
+      "name": "SpaceXAI: Grok 4.6",
+      "provider": "x-ai",
+      "currency": "USD",
+      "price_in_per_m": 2.0,
+      "price_out_per_m": 6.0,
+      "scores": {
+        "general": 0.7007,
+        "coding": 0.7231,
+        "writing": 0.7482
+      },
+      "elo": {
+        "general": 1446.3518,
+        "coding": 1476.2773,
+        "writing": 1463.4635
+      }
+    }
+  ]
+}
