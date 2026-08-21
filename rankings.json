@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-08-19",
-  "quality_as_of": "2026-08-12",
+  "as_of": "2026-08-21",
+  "quality_as_of": "2026-08-19",
   "schema_version": 1,
   "quality_coverage": {
     "aider_top_n": 20,
@@ -13,19 +13,19 @@
       "name": "LMArena leaderboard dataset",
       "url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
       "license": "CC-BY-4.0",
-      "retrieved": "2026-08-19"
+      "retrieved": "2026-08-21"
     },
     {
       "name": "OpenRouter models API",
       "url": "https://openrouter.ai/api/v1/models",
       "license": "public API, no license statement \u2014 prices as displayed",
-      "retrieved": "2026-08-19"
+      "retrieved": "2026-08-21"
     },
     {
       "name": "aider polyglot leaderboard",
       "url": "https://github.com/Aider-AI/aider/blob/main/aider/website/_data/polyglot_leaderboard.yml",
       "license": "Apache-2.0",
-      "retrieved": "2026-08-19"
+      "retrieved": "2026-08-21"
     }
   ],
   "models": [
@@ -37,14 +37,14 @@
       "price_in_per_m": 5.0,
       "price_out_per_m": 25.0,
       "scores": {
-        "general": 0.5112,
-        "coding": 0.5491,
-        "writing": 0.488
+        "general": 0.5073,
+        "coding": 0.5447,
+        "writing": 0.4822
       },
       "elo": {
-        "general": 1507.7846,
-        "coding": 1534.2153,
-        "writing": 1491.6746
+        "general": 1505.0975,
+        "coding": 1531.1767,
+        "writing": 1487.5931
       },
       "quality_sources": {
         "general": [
@@ -68,13 +68,13 @@
       "price_out_per_m": 25.0,
       "scores": {
         "general": 0.504,
-        "coding": 0.5508,
-        "writing": 0.508
+        "coding": 0.5511,
+        "writing": 0.5062
       },
       "elo": {
-        "general": 1502.7969,
-        "coding": 1535.4336,
-        "writing": 1505.5486
+        "general": 1502.7649,
+        "coding": 1535.6421,
+        "writing": 1504.3119
       },
       "quality_sources": {
         "general": [
@@ -97,14 +97,14 @@
       "price_in_per_m": 10.0,
       "price_out_per_m": 50.0,
       "scores": {
-        "general": 0.4904,
-        "coding": 0.5314,
-        "writing": 0.4965
+        "general": 0.4918,
+        "coding": 0.5279,
+        "writing": 0.501
       },
       "elo": {
-        "general": 1493.2972,
-        "coding": 1521.8553,
-        "writing": 1497.5651
+        "general": 1494.3329,
+        "coding": 1519.4053,
+        "writing": 1500.6956
       },
       "quality_sources": {
         "general": [
@@ -120,21 +120,21 @@
       "aider_as_of": null
     },
     {
-      "id": "qwen/qwen3.8-max",
-      "name": "Qwen: Qwen3.8 Max",
-      "provider": "qwen",
+      "id": "google/gemini-3.7-flash",
+      "name": "Google: Gemini 3.7 Flash",
+      "provider": "google",
       "currency": "USD",
-      "price_in_per_m": 2.0,
-      "price_out_per_m": 6.0,
+      "price_in_per_m": 0.375,
+      "price_out_per_m": 1.875,
       "scores": {
-        "general": 0.4881,
-        "coding": 0.512,
-        "writing": 0.4882
+        "general": 0.4864,
+        "coding": 0.506,
+        "writing": 0.4851
       },
       "elo": {
-        "general": 1491.7109,
-        "coding": 1508.3252,
-        "writing": 1491.825
+        "general": 1490.5732,
+        "coding": 1504.1555,
+        "writing": 1489.6417
       },
       "quality_sources": {
         "general": [
@@ -157,14 +157,14 @@
       "price_in_per_m": 5.0,
       "price_out_per_m": 25.0,
       "scores": {
-        "general": 0.486,
-        "coding": 0.5278,
-        "writing": 0.4805
+        "general": 0.4859,
+        "coding": 0.5276,
+        "writing": 0.48
       },
       "elo": {
-        "general": 1490.2411,
-        "coding": 1519.324,
-        "writing": 1486.4639
+        "general": 1490.1689,
+        "coding": 1519.1852,
+        "writing": 1486.0697
       },
       "quality_sources": {
         "general": [
@@ -187,14 +187,14 @@
       "price_in_per_m": 1.25,
       "price_out_per_m": 4.25,
       "scores": {
-        "general": 0.4831,
-        "coding": 0.4948,
-        "writing": 0.4269
+        "general": 0.4821,
+        "coding": 0.4929,
+        "writing": 0.4225
       },
       "elo": {
-        "general": 1488.2728,
-        "coding": 1496.3696,
-        "writing": 1448.8718
+        "general": 1487.5625,
+        "coding": 1495.0812,
+        "writing": 1445.6964
       },
       "quality_sources": {
         "general": [
@@ -217,14 +217,14 @@
       "price_in_per_m": 1.5,
       "price_out_per_m": 9.0,
       "scores": {
-        "general": 0.4735,
-        "coding": 0.4916,
-        "writing": 0.4564
+        "general": 0.4758,
+        "coding": 0.49,
+        "writing": 0.4574
       },
       "elo": {
-        "general": 1481.5938,
-        "coding": 1494.1518,
-        "writing": 1469.6488
+        "general": 1483.1857,
+        "coding": 1493.0756,
+        "writing": 1470.3603
       },
       "quality_sources": {
         "general": [
@@ -240,21 +240,21 @@
       "aider_as_of": null
     },
     {
-      "id": "google/gemini-3.6-flash",
-      "name": "Google: Gemini 3.6 Flash",
-      "provider": "google",
+      "id": "qwen/qwen3.8-max",
+      "name": "Qwen: Qwen3.8 Max",
+      "provider": "qwen",
       "currency": "USD",
-      "price_in_per_m": 0.75,
-      "price_out_per_m": 3.75,
+      "price_in_per_m": 2.0,
+      "price_out_per_m": 6.0,
       "scores": {
-        "general": 0.4712,
-        "coding": 0.4932,
-        "writing": 0.4506
+        "general": 0.4755,
+        "coding": 0.4996,
+        "writing": 0.4784
       },
       "elo": {
-        "general": 1479.9925,
-        "coding": 1495.3023,
-        "writing": 1465.574
+        "general": 1482.993,
+        "coding": 1499.6898,
+        "writing": 1484.9467
       },
       "quality_sources": {
         "general": [
@@ -277,14 +277,14 @@
       "price_in_per_m": 2.0,
       "price_out_per_m": 12.0,
       "scores": {
-        "general": 0.4706,
-        "coding": 0.4764,
-        "writing": 0.4753
+        "general": 0.4705,
+        "coding": 0.476,
+        "writing": 0.4726
       },
       "elo": {
-        "general": 1479.5656,
-        "coding": 1483.6063,
-        "writing": 1482.7955
+        "general": 1479.4783,
+        "coding": 1483.2926,
+        "writing": 1480.9621
       },
       "quality_sources": {
         "general": [
@@ -307,14 +307,14 @@
       "price_in_per_m": 1.25,
       "price_out_per_m": 4.25,
       "scores": {
-        "general": 0.4669,
-        "coding": 0.4943,
-        "writing": 0.4088
+        "general": 0.4693,
+        "coding": 0.4904,
+        "writing": 0.4124
       },
       "elo": {
-        "general": 1476.9422,
-        "coding": 1496.0144,
-        "writing": 1435.8997
+        "general": 1478.6637,
+        "coding": 1493.3,
+        "writing": 1438.4706
       },
       "quality_sources": {
         "general": [
@@ -337,14 +337,44 @@
       "price_in_per_m": 3.0,
       "price_out_per_m": 15.0,
       "scores": {
-        "general": 0.4659,
-        "coding": 0.5186,
-        "writing": 0.4261
+        "general": 0.4669,
+        "coding": 0.5189,
+        "writing": 0.4291
       },
       "elo": {
-        "general": 1476.2894,
-        "coding": 1512.9591,
-        "writing": 1448.2564
+        "general": 1476.9378,
+        "coding": 1513.147,
+        "writing": 1450.4189
+      },
+      "quality_sources": {
+        "general": [
+          "lmarena"
+        ],
+        "coding": [
+          "lmarena"
+        ],
+        "writing": [
+          "lmarena"
+        ]
+      },
+      "aider_as_of": null
+    },
+    {
+      "id": "google/gemini-3.6-flash",
+      "name": "Google: Gemini 3.6 Flash",
+      "provider": "google",
+      "currency": "USD",
+      "price_in_per_m": 0.75,
+      "price_out_per_m": 3.75,
+      "scores": {
+        "general": 0.4664,
+        "coding": 0.4898,
+        "writing": 0.4466
+      },
+      "elo": {
+        "general": 1476.6441,
+        "coding": 1492.9173,
+        "writing": 1462.7663
       },
       "quality_sources": {
         "general": [
@@ -368,13 +398,43 @@
       "price_out_per_m": 4.425,
       "scores": {
         "general": 0.4633,
-        "coding": 0.497,
-        "writing": 0.4322
+        "coding": 0.4966,
+        "writing": 0.4321
       },
       "elo": {
-        "general": 1474.423,
-        "coding": 1497.9097,
-        "writing": 1452.6105
+        "general": 1474.4728,
+        "coding": 1497.6209,
+        "writing": 1452.5238
+      },
+      "quality_sources": {
+        "general": [
+          "lmarena"
+        ],
+        "coding": [
+          "lmarena"
+        ],
+        "writing": [
+          "lmarena"
+        ]
+      },
+      "aider_as_of": null
+    },
+    {
+      "id": "z-ai/glm-5.3",
+      "name": "Z.ai: GLM 5.3",
+      "provider": "z-ai",
+      "currency": "USD",
+      "price_in_per_m": 1.4,
+      "price_out_per_m": 4.4,
+      "scores": {
+        "general": 0.4627,
+        "coding": 0.5134,
+        "writing": 0.4475
+      },
+      "elo": {
+        "general": 1474.0047,
+        "coding": 1509.2895,
+        "writing": 1463.3822
       },
       "quality_sources": {
         "general": [
@@ -397,14 +457,14 @@
       "price_in_per_m": 5.0,
       "price_out_per_m": 30.0,
       "scores": {
-        "general": 0.4578,
-        "coding": 0.4932,
-        "writing": 0.4327
+        "general": 0.4576,
+        "coding": 0.4917,
+        "writing": 0.4331
       },
       "elo": {
-        "general": 1470.5965,
-        "coding": 1495.2742,
-        "writing": 1452.9177
+        "general": 1470.44,
+        "coding": 1494.2366,
+        "writing": 1453.2395
       },
       "quality_sources": {
         "general": [
@@ -428,13 +488,13 @@
       "price_out_per_m": 15.0,
       "scores": {
         "general": 0.4563,
-        "coding": 0.4942,
-        "writing": 0.4146
+        "coding": 0.494,
+        "writing": 0.4144
       },
       "elo": {
-        "general": 1469.5434,
-        "coding": 1495.9623,
-        "writing": 1440.0839
+        "general": 1469.5575,
+        "coding": 1495.8547,
+        "writing": 1439.9453
       },
       "quality_sources": {
         "general": [
@@ -459,12 +519,12 @@
       "scores": {
         "general": 0.4512,
         "coding": 0.4459,
-        "writing": 0.441
+        "writing": 0.4402
       },
       "elo": {
-        "general": 1465.969,
-        "coding": 1462.2668,
-        "writing": 1458.8024
+        "general": 1465.9558,
+        "coding": 1462.2885,
+        "writing": 1458.2236
       },
       "quality_sources": {
         "general": [
@@ -487,14 +547,14 @@
       "price_in_per_m": 0.966,
       "price_out_per_m": 3.036,
       "scores": {
-        "general": 0.4505,
-        "coding": 0.4662,
-        "writing": 0.444
+        "general": 0.4503,
+        "coding": 0.4653,
+        "writing": 0.4438
       },
       "elo": {
-        "general": 1465.4955,
-        "coding": 1476.4663,
-        "writing": 1460.8892
+        "general": 1465.3347,
+        "coding": 1475.8757,
+        "writing": 1460.7977
       },
       "quality_sources": {
         "general": [
@@ -517,14 +577,44 @@
       "price_in_per_m": 0.435,
       "price_out_per_m": 0.87,
       "scores": {
-        "general": 0.4499,
-        "coding": 0.5007,
-        "writing": 0.4105
+        "general": 0.4491,
+        "coding": 0.5001,
+        "writing": 0.4131
       },
       "elo": {
-        "general": 1465.0571,
-        "coding": 1500.4928,
-        "writing": 1437.1218
+        "general": 1464.489,
+        "coding": 1500.0913,
+        "writing": 1439.0137
+      },
+      "quality_sources": {
+        "general": [
+          "lmarena"
+        ],
+        "coding": [
+          "lmarena"
+        ],
+        "writing": [
+          "lmarena"
+        ]
+      },
+      "aider_as_of": null
+    },
+    {
+      "id": "z-ai/glm-5.1",
+      "name": "Z.ai: GLM 5.1",
+      "provider": "z-ai",
+      "currency": "USD",
+      "price_in_per_m": 0.966,
+      "price_out_per_m": 3.036,
+      "scores": {
+        "general": 0.4483,
+        "coding": 0.4823,
+        "writing": 0.4347
+      },
+      "elo": {
+        "general": 1463.976,
+        "coding": 1487.6804,
+        "writing": 1454.3438
       },
       "quality_sources": {
         "general": [
@@ -547,14 +637,14 @@
       "price_in_per_m": 3.0,
       "price_out_per_m": 15.0,
       "scores": {
-        "general": 0.4392,
-        "coding": 0.5056,
-        "writing": 0.4097
+        "general": 0.4394,
+        "coding": 0.5057,
+        "writing": 0.4094
       },
       "elo": {
-        "general": 1457.5695,
-        "coding": 1503.879,
-        "writing": 1436.5729
+        "general": 1457.6908,
+        "coding": 1503.9277,
+        "writing": 1436.3444
       },
       "quality_sources": {
         "general": [
@@ -578,13 +668,13 @@
       "price_out_per_m": 10.0,
       "scores": {
         "general": 0.4389,
-        "coding": 0.4317,
-        "writing": 0.4342
+        "coding": 0.432,
+        "writing": 0.4337
       },
       "elo": {
-        "general": 1457.3408,
-        "coding": 1452.2204,
-        "writing": 1454.0365
+        "general": 1457.3195,
+        "coding": 1452.4743,
+        "writing": 1453.6889
       },
       "quality_sources": {
         "general": [
@@ -607,14 +697,14 @@
       "price_in_per_m": 2.5,
       "price_out_per_m": 15.0,
       "scores": {
-        "general": 0.4327,
-        "coding": 0.4844,
-        "writing": 0.4354
+        "general": 0.4336,
+        "coding": 0.4877,
+        "writing": 0.433
       },
       "elo": {
-        "general": 1452.9312,
-        "coding": 1489.1779,
-        "writing": 1454.8291
+        "general": 1453.5645,
+        "coding": 1491.42,
+        "writing": 1453.1733
       },
       "quality_sources": {
         "general": [
@@ -637,14 +727,14 @@
       "price_in_per_m": 5.0,
       "price_out_per_m": 25.0,
       "scores": {
-        "general": 0.4282,
-        "coding": 0.503,
-        "writing": 0.421
+        "general": 0.4283,
+        "coding": 0.5034,
+        "writing": 0.4209
       },
       "elo": {
-        "general": 1449.7266,
-        "coding": 1502.075,
-        "writing": 1444.6396
+        "general": 1449.8371,
+        "coding": 1502.3642,
+        "writing": 1444.5903
       },
       "quality_sources": {
         "general": [
@@ -667,14 +757,14 @@
       "price_in_per_m": 2.0,
       "price_out_per_m": 6.0,
       "scores": {
-        "general": 0.4234,
-        "coding": 0.4659,
-        "writing": 0.4476
+        "general": 0.4206,
+        "coding": 0.4657,
+        "writing": 0.4287
       },
       "elo": {
-        "general": 1446.3518,
-        "coding": 1476.2773,
-        "writing": 1463.4635
+        "general": 1444.374,
+        "coding": 1476.1333,
+        "writing": 1450.1473
       },
       "quality_sources": {
         "general": [
