@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-08-21",
-  "quality_as_of": "2026-08-19",
+  "as_of": "2026-08-26",
+  "quality_as_of": "2026-08-21",
   "schema_version": 1,
   "quality_coverage": {
     "aider_top_n": 20,
@@ -13,19 +13,19 @@
       "name": "LMArena leaderboard dataset",
       "url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
       "license": "CC-BY-4.0",
-      "retrieved": "2026-08-21"
+      "retrieved": "2026-08-26"
     },
     {
       "name": "OpenRouter models API",
       "url": "https://openrouter.ai/api/v1/models",
       "license": "public API, no license statement \u2014 prices as displayed",
-      "retrieved": "2026-08-21"
+      "retrieved": "2026-08-26"
     },
     {
       "name": "aider polyglot leaderboard",
       "url": "https://github.com/Aider-AI/aider/blob/main/aider/website/_data/polyglot_leaderboard.yml",
       "license": "Apache-2.0",
-      "retrieved": "2026-08-21"
+      "retrieved": "2026-08-26"
     }
   ],
   "models": [
@@ -37,27 +37,28 @@
       "price_in_per_m": 5.0,
       "price_out_per_m": 25.0,
       "scores": {
-        "general": 0.5073,
-        "coding": 0.5447,
-        "writing": 0.4822
+        "general": 0.506,
+        "coding": 0.7546,
+        "writing": 0.4795
       },
       "elo": {
-        "general": 1505.0975,
-        "coding": 1531.1767,
-        "writing": 1487.5931
+        "general": 1504.2026,
+        "coding": 1531.5185,
+        "writing": 1485.7764
       },
       "quality_sources": {
         "general": [
           "lmarena"
         ],
         "coding": [
-          "lmarena"
+          "lmarena",
+          "aider-selfrun"
         ],
         "writing": [
           "lmarena"
         ]
       },
-      "aider_as_of": null
+      "aider_as_of": "2026-08-19"
     },
     {
       "id": "anthropic/claude-opus-4.6",
@@ -67,27 +68,28 @@
       "price_in_per_m": 5.0,
       "price_out_per_m": 25.0,
       "scores": {
-        "general": 0.504,
-        "coding": 0.5511,
-        "writing": 0.5062
+        "general": 0.5039,
+        "coding": 0.7244,
+        "writing": 0.5061
       },
       "elo": {
-        "general": 1502.7649,
-        "coding": 1535.6421,
-        "writing": 1504.3119
+        "general": 1502.6783,
+        "coding": 1535.416,
+        "writing": 1504.2297
       },
       "quality_sources": {
         "general": [
           "lmarena"
         ],
         "coding": [
-          "lmarena"
+          "lmarena",
+          "aider-selfrun"
         ],
         "writing": [
           "lmarena"
         ]
       },
-      "aider_as_of": null
+      "aider_as_of": "2026-08-19"
     },
     {
       "id": "anthropic/claude-fable-5",
@@ -97,27 +99,28 @@
       "price_in_per_m": 10.0,
       "price_out_per_m": 50.0,
       "scores": {
-        "general": 0.4918,
-        "coding": 0.5279,
-        "writing": 0.501
+        "general": 0.4924,
+        "coding": 0.7458,
+        "writing": 0.5007
       },
       "elo": {
-        "general": 1494.3329,
-        "coding": 1519.4053,
-        "writing": 1500.6956
+        "general": 1494.6848,
+        "coding": 1519.2356,
+        "writing": 1500.4846
       },
       "quality_sources": {
         "general": [
           "lmarena"
         ],
         "coding": [
-          "lmarena"
+          "lmarena",
+          "aider-selfrun"
         ],
         "writing": [
           "lmarena"
         ]
       },
-      "aider_as_of": null
+      "aider_as_of": "2026-08-19"
     },
     {
       "id": "google/gemini-3.7-flash",
@@ -127,14 +130,14 @@
       "price_in_per_m": 0.375,
       "price_out_per_m": 1.875,
       "scores": {
-        "general": 0.4864,
-        "coding": 0.506,
-        "writing": 0.4851
+        "general": 0.4859,
+        "coding": 0.5051,
+        "writing": 0.485
       },
       "elo": {
-        "general": 1490.5732,
-        "coding": 1504.1555,
-        "writing": 1489.6417
+        "general": 1490.2117,
+        "coding": 1503.528,
+        "writing": 1489.5921
       },
       "quality_sources": {
         "general": [
@@ -157,27 +160,28 @@
       "price_in_per_m": 5.0,
       "price_out_per_m": 25.0,
       "scores": {
-        "general": 0.4859,
-        "coding": 0.5276,
-        "writing": 0.48
+        "general": 0.4858,
+        "coding": 0.7257,
+        "writing": 0.4796
       },
       "elo": {
-        "general": 1490.1689,
-        "coding": 1519.1852,
-        "writing": 1486.0697
+        "general": 1490.1204,
+        "coding": 1519.1149,
+        "writing": 1485.8413
       },
       "quality_sources": {
         "general": [
           "lmarena"
         ],
         "coding": [
-          "lmarena"
+          "lmarena",
+          "aider-selfrun"
         ],
         "writing": [
           "lmarena"
         ]
       },
-      "aider_as_of": null
+      "aider_as_of": "2026-08-19"
     },
     {
       "id": "meta/muse-spark-1.2",
@@ -187,27 +191,28 @@
       "price_in_per_m": 1.25,
       "price_out_per_m": 4.25,
       "scores": {
-        "general": 0.4821,
-        "coding": 0.4929,
-        "writing": 0.4225
+        "general": 0.4818,
+        "coding": 0.6838,
+        "writing": 0.423
       },
       "elo": {
-        "general": 1487.5625,
-        "coding": 1495.0812,
-        "writing": 1445.6964
+        "general": 1487.3677,
+        "coding": 1494.1573,
+        "writing": 1446.0942
       },
       "quality_sources": {
         "general": [
           "lmarena"
         ],
         "coding": [
-          "lmarena"
+          "lmarena",
+          "aider-selfrun"
         ],
         "writing": [
           "lmarena"
         ]
       },
-      "aider_as_of": null
+      "aider_as_of": "2026-08-19"
     },
     {
       "id": "google/gemini-3.5-flash",
@@ -217,27 +222,28 @@
       "price_in_per_m": 1.5,
       "price_out_per_m": 9.0,
       "scores": {
-        "general": 0.4758,
-        "coding": 0.49,
-        "writing": 0.4574
+        "general": 0.475,
+        "coding": 0.7062,
+        "writing": 0.456
       },
       "elo": {
-        "general": 1483.1857,
-        "coding": 1493.0756,
-        "writing": 1470.3603
+        "general": 1482.6326,
+        "coding": 1491.9295,
+        "writing": 1469.3295
       },
       "quality_sources": {
         "general": [
           "lmarena"
         ],
         "coding": [
-          "lmarena"
+          "lmarena",
+          "aider-selfrun"
         ],
         "writing": [
           "lmarena"
         ]
       },
-      "aider_as_of": null
+      "aider_as_of": "2026-08-19"
     },
     {
       "id": "qwen/qwen3.8-max",
@@ -247,27 +253,28 @@
       "price_in_per_m": 2.0,
       "price_out_per_m": 6.0,
       "scores": {
-        "general": 0.4755,
-        "coding": 0.4996,
-        "writing": 0.4784
+        "general": 0.474,
+        "coding": 0.7074,
+        "writing": 0.4725
       },
       "elo": {
-        "general": 1482.993,
-        "coding": 1499.6898,
-        "writing": 1484.9467
+        "general": 1481.8895,
+        "coding": 1499.1631,
+        "writing": 1480.8885
       },
       "quality_sources": {
         "general": [
           "lmarena"
         ],
         "coding": [
-          "lmarena"
+          "lmarena",
+          "aider-selfrun"
         ],
         "writing": [
           "lmarena"
         ]
       },
-      "aider_as_of": null
+      "aider_as_of": "2026-08-19"
     },
     {
       "id": "google/gemini-3.1-pro-preview",
@@ -277,27 +284,28 @@
       "price_in_per_m": 2.0,
       "price_out_per_m": 12.0,
       "scores": {
-        "general": 0.4705,
-        "coding": 0.476,
-        "writing": 0.4726
+        "general": 0.4706,
+        "coding": 0.7045,
+        "writing": 0.4737
       },
       "elo": {
-        "general": 1479.4783,
-        "coding": 1483.2926,
-        "writing": 1480.9621
+        "general": 1479.55,
+        "coding": 1483.3184,
+        "writing": 1481.6743
       },
       "quality_sources": {
         "general": [
           "lmarena"
         ],
         "coding": [
-          "lmarena"
+          "lmarena",
+          "aider-selfrun"
         ],
         "writing": [
           "lmarena"
         ]
       },
-      "aider_as_of": null
+      "aider_as_of": "2026-08-19"
     },
     {
       "id": "meta/muse-spark-1.1",
@@ -307,44 +315,45 @@
       "price_in_per_m": 1.25,
       "price_out_per_m": 4.25,
       "scores": {
-        "general": 0.4693,
-        "coding": 0.4904,
-        "writing": 0.4124
+        "general": 0.4688,
+        "coding": 0.6614,
+        "writing": 0.4114
       },
       "elo": {
-        "general": 1478.6637,
-        "coding": 1493.3,
-        "writing": 1438.4706
+        "general": 1478.3224,
+        "coding": 1494.2938,
+        "writing": 1437.7641
       },
       "quality_sources": {
         "general": [
           "lmarena"
         ],
         "coding": [
-          "lmarena"
+          "lmarena",
+          "aider-selfrun"
         ],
         "writing": [
           "lmarena"
         ]
       },
-      "aider_as_of": null
+      "aider_as_of": "2026-08-19"
     },
     {
-      "id": "moonshotai/kimi-k3",
-      "name": "MoonshotAI: Kimi K3",
-      "provider": "moonshotai",
+      "id": "z-ai/glm-5.3",
+      "name": "Z.ai: GLM 5.3",
+      "provider": "z-ai",
       "currency": "USD",
-      "price_in_per_m": 3.0,
-      "price_out_per_m": 15.0,
+      "price_in_per_m": 1.4,
+      "price_out_per_m": 4.4,
       "scores": {
-        "general": 0.4669,
-        "coding": 0.5189,
-        "writing": 0.4291
+        "general": 0.4668,
+        "coding": 0.5058,
+        "writing": 0.4449
       },
       "elo": {
-        "general": 1476.9378,
-        "coding": 1513.147,
-        "writing": 1450.4189
+        "general": 1476.9291,
+        "coding": 1504.008,
+        "writing": 1461.5783
       },
       "quality_sources": {
         "general": [
@@ -367,27 +376,59 @@
       "price_in_per_m": 0.75,
       "price_out_per_m": 3.75,
       "scores": {
-        "general": 0.4664,
-        "coding": 0.4898,
-        "writing": 0.4466
+        "general": 0.4662,
+        "coding": 0.713,
+        "writing": 0.4464
       },
       "elo": {
-        "general": 1476.6441,
-        "coding": 1492.9173,
-        "writing": 1462.7663
+        "general": 1476.4839,
+        "coding": 1491.6956,
+        "writing": 1462.5906
       },
       "quality_sources": {
         "general": [
           "lmarena"
         ],
         "coding": [
-          "lmarena"
+          "lmarena",
+          "aider-selfrun"
         ],
         "writing": [
           "lmarena"
         ]
       },
-      "aider_as_of": null
+      "aider_as_of": "2026-08-19"
+    },
+    {
+      "id": "moonshotai/kimi-k3",
+      "name": "MoonshotAI: Kimi K3",
+      "provider": "moonshotai",
+      "currency": "USD",
+      "price_in_per_m": 3.0,
+      "price_out_per_m": 15.0,
+      "scores": {
+        "general": 0.4659,
+        "coding": 0.6918,
+        "writing": 0.4269
+      },
+      "elo": {
+        "general": 1476.29,
+        "coding": 1511.5418,
+        "writing": 1448.8297
+      },
+      "quality_sources": {
+        "general": [
+          "lmarena"
+        ],
+        "coding": [
+          "lmarena",
+          "aider-selfrun"
+        ],
+        "writing": [
+          "lmarena"
+        ]
+      },
+      "aider_as_of": "2026-08-19"
     },
     {
       "id": "qwen/qwen3.7-max",
@@ -397,57 +438,28 @@
       "price_in_per_m": 1.475,
       "price_out_per_m": 4.425,
       "scores": {
-        "general": 0.4633,
-        "coding": 0.4966,
+        "general": 0.4631,
+        "coding": 0.7147,
         "writing": 0.4321
       },
       "elo": {
-        "general": 1474.4728,
-        "coding": 1497.6209,
-        "writing": 1452.5238
+        "general": 1474.296,
+        "coding": 1497.5206,
+        "writing": 1452.5413
       },
       "quality_sources": {
         "general": [
           "lmarena"
         ],
         "coding": [
-          "lmarena"
+          "lmarena",
+          "aider-selfrun"
         ],
         "writing": [
           "lmarena"
         ]
       },
-      "aider_as_of": null
-    },
-    {
-      "id": "z-ai/glm-5.3",
-      "name": "Z.ai: GLM 5.3",
-      "provider": "z-ai",
-      "currency": "USD",
-      "price_in_per_m": 1.4,
-      "price_out_per_m": 4.4,
-      "scores": {
-        "general": 0.4627,
-        "coding": 0.5134,
-        "writing": 0.4475
-      },
-      "elo": {
-        "general": 1474.0047,
-        "coding": 1509.2895,
-        "writing": 1463.3822
-      },
-      "quality_sources": {
-        "general": [
-          "lmarena"
-        ],
-        "coding": [
-          "lmarena"
-        ],
-        "writing": [
-          "lmarena"
-        ]
-      },
-      "aider_as_of": null
+      "aider_as_of": "2026-08-19"
     },
     {
       "id": "openai/gpt-5.5",
@@ -457,27 +469,28 @@
       "price_in_per_m": 5.0,
       "price_out_per_m": 30.0,
       "scores": {
-        "general": 0.4576,
-        "coding": 0.4917,
-        "writing": 0.4331
+        "general": 0.4582,
+        "coding": 0.695,
+        "writing": 0.4351
       },
       "elo": {
-        "general": 1470.44,
-        "coding": 1494.2366,
-        "writing": 1453.2395
+        "general": 1470.878,
+        "coding": 1494.4712,
+        "writing": 1454.6438
       },
       "quality_sources": {
         "general": [
           "lmarena"
         ],
         "coding": [
-          "lmarena"
+          "lmarena",
+          "aider-selfrun"
         ],
         "writing": [
           "lmarena"
         ]
       },
-      "aider_as_of": null
+      "aider_as_of": "2026-08-19"
     },
     {
       "id": "openai/gpt-5.4",
@@ -488,26 +501,27 @@
       "price_out_per_m": 15.0,
       "scores": {
         "general": 0.4563,
-        "coding": 0.494,
-        "writing": 0.4144
+        "coding": 0.616,
+        "writing": 0.4145
       },
       "elo": {
-        "general": 1469.5575,
-        "coding": 1495.8547,
-        "writing": 1439.9453
+        "general": 1469.5687,
+        "coding": 1495.8083,
+        "writing": 1439.9771
       },
       "quality_sources": {
         "general": [
           "lmarena"
         ],
         "coding": [
-          "lmarena"
+          "lmarena",
+          "aider-selfrun"
         ],
         "writing": [
           "lmarena"
         ]
       },
-      "aider_as_of": null
+      "aider_as_of": "2026-08-19"
     },
     {
       "id": "google/gemini-3-flash-preview",
@@ -518,13 +532,13 @@
       "price_out_per_m": 3.0,
       "scores": {
         "general": 0.4512,
-        "coding": 0.4459,
-        "writing": 0.4402
+        "coding": 0.4461,
+        "writing": 0.4403
       },
       "elo": {
-        "general": 1465.9558,
-        "coding": 1462.2885,
-        "writing": 1458.2236
+        "general": 1465.9721,
+        "coding": 1462.3741,
+        "writing": 1458.3373
       },
       "quality_sources": {
         "general": [
@@ -544,30 +558,31 @@
       "name": "Z.ai: GLM 5.2",
       "provider": "z-ai",
       "currency": "USD",
-      "price_in_per_m": 0.966,
-      "price_out_per_m": 3.036,
+      "price_in_per_m": 1.19,
+      "price_out_per_m": 3.74,
       "scores": {
         "general": 0.4503,
-        "coding": 0.4653,
-        "writing": 0.4438
+        "coding": 0.6034,
+        "writing": 0.444
       },
       "elo": {
-        "general": 1465.3347,
-        "coding": 1475.8757,
-        "writing": 1460.7977
+        "general": 1465.3787,
+        "coding": 1475.4739,
+        "writing": 1460.9417
       },
       "quality_sources": {
         "general": [
           "lmarena"
         ],
         "coding": [
-          "lmarena"
+          "lmarena",
+          "aider-selfrun"
         ],
         "writing": [
           "lmarena"
         ]
       },
-      "aider_as_of": null
+      "aider_as_of": "2026-08-19"
     },
     {
       "id": "xiaomi/mimo-v2.5-pro",
@@ -577,44 +592,45 @@
       "price_in_per_m": 0.435,
       "price_out_per_m": 0.87,
       "scores": {
-        "general": 0.4491,
-        "coding": 0.5001,
-        "writing": 0.4131
+        "general": 0.4498,
+        "coding": 0.5785,
+        "writing": 0.4146
       },
       "elo": {
-        "general": 1464.489,
-        "coding": 1500.0913,
-        "writing": 1439.0137
+        "general": 1464.9674,
+        "coding": 1499.3479,
+        "writing": 1440.0362
       },
       "quality_sources": {
         "general": [
           "lmarena"
         ],
         "coding": [
-          "lmarena"
+          "lmarena",
+          "aider-selfrun"
         ],
         "writing": [
           "lmarena"
         ]
       },
-      "aider_as_of": null
+      "aider_as_of": "2026-08-19"
     },
     {
       "id": "z-ai/glm-5.1",
       "name": "Z.ai: GLM 5.1",
       "provider": "z-ai",
       "currency": "USD",
-      "price_in_per_m": 0.966,
-      "price_out_per_m": 3.036,
+      "price_in_per_m": 1.26,
+      "price_out_per_m": 3.96,
       "scores": {
-        "general": 0.4483,
-        "coding": 0.4823,
-        "writing": 0.4347
+        "general": 0.4485,
+        "coding": 0.4829,
+        "writing": 0.4338
       },
       "elo": {
-        "general": 1463.976,
-        "coding": 1487.6804,
-        "writing": 1454.3438
+        "general": 1464.107,
+        "coding": 1488.1012,
+        "writing": 1453.7227
       },
       "quality_sources": {
         "general": [
@@ -637,27 +653,28 @@
       "price_in_per_m": 3.0,
       "price_out_per_m": 15.0,
       "scores": {
-        "general": 0.4394,
-        "coding": 0.5057,
-        "writing": 0.4094
+        "general": 0.4392,
+        "coding": 0.6682,
+        "writing": 0.4091
       },
       "elo": {
-        "general": 1457.6908,
-        "coding": 1503.9277,
-        "writing": 1436.3444
+        "general": 1457.5719,
+        "coding": 1503.7882,
+        "writing": 1436.1343
       },
       "quality_sources": {
         "general": [
           "lmarena"
         ],
         "coding": [
-          "lmarena"
+          "lmarena",
+          "aider-selfrun"
         ],
         "writing": [
           "lmarena"
         ]
       },
-      "aider_as_of": null
+      "aider_as_of": "2026-08-19"
     },
     {
       "id": "google/gemini-2.5-pro",
@@ -672,9 +689,9 @@
         "writing": 0.4337
       },
       "elo": {
-        "general": 1457.3195,
-        "coding": 1452.4743,
-        "writing": 1453.6889
+        "general": 1457.3392,
+        "coding": 1452.4271,
+        "writing": 1453.6763
       },
       "quality_sources": {
         "general": [
@@ -694,30 +711,31 @@
       "name": "OpenAI: GPT-5.6 Sol",
       "provider": "openai",
       "currency": "USD",
-      "price_in_per_m": 2.5,
-      "price_out_per_m": 15.0,
+      "price_in_per_m": 2.0,
+      "price_out_per_m": 10.0,
       "scores": {
-        "general": 0.4336,
-        "coding": 0.4877,
-        "writing": 0.433
+        "general": 0.4344,
+        "coding": 0.7044,
+        "writing": 0.437
       },
       "elo": {
-        "general": 1453.5645,
-        "coding": 1491.42,
-        "writing": 1453.1733
+        "general": 1454.1709,
+        "coding": 1492.2691,
+        "writing": 1455.9925
       },
       "quality_sources": {
         "general": [
           "lmarena"
         ],
         "coding": [
-          "lmarena"
+          "lmarena",
+          "aider-selfrun"
         ],
         "writing": [
           "lmarena"
         ]
       },
-      "aider_as_of": null
+      "aider_as_of": "2026-08-19"
     },
     {
       "id": "anthropic/claude-opus-4.5",
@@ -728,26 +746,27 @@
       "price_out_per_m": 25.0,
       "scores": {
         "general": 0.4283,
-        "coding": 0.5034,
-        "writing": 0.4209
+        "coding": 0.6897,
+        "writing": 0.4203
       },
       "elo": {
-        "general": 1449.8371,
-        "coding": 1502.3642,
-        "writing": 1444.5903
+        "general": 1449.8533,
+        "coding": 1502.3343,
+        "writing": 1444.1679
       },
       "quality_sources": {
         "general": [
           "lmarena"
         ],
         "coding": [
-          "lmarena"
+          "lmarena",
+          "aider-selfrun"
         ],
         "writing": [
           "lmarena"
         ]
       },
-      "aider_as_of": null
+      "aider_as_of": "2026-08-19"
     },
     {
       "id": "x-ai/grok-4.6",
@@ -757,27 +776,28 @@
       "price_in_per_m": 2.0,
       "price_out_per_m": 6.0,
       "scores": {
-        "general": 0.4206,
-        "coding": 0.4657,
-        "writing": 0.4287
+        "general": 0.4197,
+        "coding": 0.712,
+        "writing": 0.4264
       },
       "elo": {
-        "general": 1444.374,
-        "coding": 1476.1333,
-        "writing": 1450.1473
+        "general": 1443.7345,
+        "coding": 1474.9634,
+        "writing": 1448.4984
       },
       "quality_sources": {
         "general": [
           "lmarena"
         ],
         "coding": [
-          "lmarena"
+          "lmarena",
+          "aider-selfrun"
         ],
         "writing": [
           "lmarena"
         ]
       },
-      "aider_as_of": null
+      "aider_as_of": "2026-08-19"
     }
   ]
 }
