@@ -1,6 +1,6 @@
 {
   "first_seen": "2026-08-22",
-  "run_count": 5,
+  "run_count": 6,
   "reasons": [
     "incoherent price move blocks publish: model 'openai/gpt-5.6-sol' price_out_per_m changed 33% (15.0 -> 10.0)"
   ],
