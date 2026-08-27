@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-26",
+  "as_of": "2026-08-27",
   "quality_as_of": "2026-08-21",
   "schema_version": 1,
   "quality_coverage": {
@@ -13,19 +13,19 @@
       "name": "LMArena leaderboard dataset",
       "url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
       "license": "CC-BY-4.0",
-      "retrieved": "2026-08-26"
+      "retrieved": "2026-08-27"
     },
     {
       "name": "OpenRouter models API",
       "url": "https://openrouter.ai/api/v1/models",
       "license": "public API, no license statement \u2014 prices as displayed",
-      "retrieved": "2026-08-26"
+      "retrieved": "2026-08-27"
     },
     {
       "name": "aider polyglot leaderboard",
       "url": "https://github.com/Aider-AI/aider/blob/main/aider/website/_data/polyglot_leaderboard.yml",
       "license": "Apache-2.0",
-      "retrieved": "2026-08-26"
+      "retrieved": "2026-08-27"
     }
   ],
   "models": [
